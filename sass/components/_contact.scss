@@ -1,0 +1,25 @@
+.section {
+    &__contact {
+        margin-top: 70px;
+
+        &-bg {
+            background-color: $colorWhite;
+        }
+
+        li {
+            line-height: 30px;
+            font-size: 12px;
+
+            span {
+                text-transform: uppercase;
+                font-weight: 600;
+                display: inline-block;
+                color: $colorBody;
+            }
+
+            a {
+                color: $colorBody;
+            }
+        }
+    }
+}

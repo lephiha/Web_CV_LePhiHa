@@ -1,0 +1,17 @@
+{
+  "name": "vcard",
+  "version": "1.0.0",
+  "description": "CV Online",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [],
+  "author": "Nguyen Long Dang",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "node-sass": "^5.0.0"
+  }
+}

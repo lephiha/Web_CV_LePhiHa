@@ -1,0 +1,108 @@
+.section {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    top: 50%;
+
+    &__about {
+        &-bg {
+            background-color: #fff;
+        }
+
+        &-title {
+            &-badge {
+                background-color: $bgRed;
+                display: inline-block;
+                padding: 7px 14px;
+                text-transform: uppercase;
+                font-size: 13px;
+                color: $colorWhite;
+                font-weight: 700;
+            }         
+
+            &-position {
+                font-size: 18px;
+                border-bottom: 1px solid #dedede;
+                padding-bottom: 25px;
+            }
+
+            h1 {
+                font-weight: 300;
+                font-size: 30px;
+                margin-bottom: 6px;
+
+                span {
+                    font-weight: 700;
+                }
+            }
+        }
+
+        &-list {
+            padding-top: 25px;
+            
+            li {
+                font-size: 12px;
+
+                .left {
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: $colorDark;
+                    width: 120px;
+                    height: 25px;
+                    display: inline-block;
+                }
+
+                .right {
+                    text-transform: capitalize;
+                    height: 25px;
+                    display: inline-block;
+                    color: $colorGrey;
+                }
+            }
+        }
+
+        &-social {
+            margin-top: 20px;
+            background-color: $bgRed;
+            padding: 8px 0px;
+        
+            a {
+                color: $colorWhite;
+                font-size: 20px;
+                display: inline-block;
+                margin: 0 20px;
+                width: 45px;
+                height: 45px;
+                text-align: center;
+                line-height: 45px;
+                border-radius: 50%;
+
+                &:hover {
+                    background-color: #0000001a;
+                    color: $colorWhite !important;
+                }
+            }
+        }
+
+        &-me {
+            margin-top: 70px;
+
+            p {
+                line-height: 1.8;
+                font-weight: 100;
+                font-size: 17px;
+            }
+        }
+    }
+
+    h2 {
+        color: $colorBody;
+        font-size: 34px;
+        line-height: 1.2;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+}

@@ -1,0 +1,145 @@
+.section {
+    &__skill {
+        margin-top: 70px;
+
+        &-bg {
+            background-color: $bgWhite;
+        }
+
+        &-one {
+            margin-bottom: 25px;
+
+            &-progress.html {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 60%;
+                }
+            }
+
+            &-progress.css {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 45%;
+                }
+            }
+
+            &-progress.scss {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 40%;
+                }
+            }
+
+            &-progress.jquery {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 45%;
+                }
+            }
+
+            &-progress.bootstrap {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 50%;
+                }
+            }
+
+            &-progress.reactjs {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 15%;
+                }
+            }
+
+            &-progress.php {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 40%;
+                }
+            }
+
+            &-progress.laravel {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 30%;
+                }
+            }
+
+            &-progress.codeigniter {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 30%;
+                }
+            }
+
+            &-progress.mysql {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 45%;
+                }
+            }
+
+            &-progress.git {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 40%;
+                }
+            }
+
+            &-progress.nodejs {
+                background-color: $bgRedOp;
+                height: 5px;
+                position: relative;
+
+                &::before {
+                    @include progress;
+                    width: 10%;
+                }
+            }
+        }
+    }
+}

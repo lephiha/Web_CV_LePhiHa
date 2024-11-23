@@ -21,7 +21,7 @@ a {
   text-decoration: none !important;
   transition: all 0.4s ease-in 0s; }
   a:hover {
-    color: inherit !important; }
+    color: blue !important; }
 
 :focus {
   outline: none; }
@@ -125,7 +125,7 @@ a {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  top: 50%; }
+  top: 70%; }
   .section__about-bg {
     background-color: #fff; }
   .section__about-title-badge {
@@ -377,3 +377,38 @@ a {
       color: #3d4451; }
     .section__contact li a {
       color: #3d4451; }
+
+      /* Container */
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Skills Section */
+.skills-section,
+.certifications-section {
+  width: 45%;
+}
+
+.skills-title,
+.certifications-title {
+  color: green;
+  font-size: 1.5rem;
+}
+
+.skills-line,
+.certifications-line {
+  border: 1px solid green;
+  width: 50px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+
+
+

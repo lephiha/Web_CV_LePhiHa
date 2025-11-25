@@ -940,3 +940,23 @@ section.visible {
         padding: 1rem;
     }
 }
+
+/* Force show projects on mobile */
+@media (max-width: 768px) {
+    #project {
+        display: block !important;
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+        min-height: auto;
+    }
+
+    .projects-grid {
+        display: grid !important;
+    }
+
+    .project-card {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+}

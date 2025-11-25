@@ -232,10 +232,19 @@ section.visible {
     transform: translateX(5px);
 }
 
+
 .info-item i {
     color: var(--electric-blue);
     font-size: 1.2rem;
     min-width: 24px;
+}
+
+.info-item img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 .info-item span,

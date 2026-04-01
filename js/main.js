@@ -1,6 +1,6 @@
 // ===== Typing Effect =====
 const typingText = document.querySelector('.typing-text');
-const text = 'IT System / ERP Support Engineer';
+const text = 'Web Developer';
 let index = 0;
 
 function type() {

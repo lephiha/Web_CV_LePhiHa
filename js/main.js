@@ -16,11 +16,16 @@ setTimeout(type, 500);
 
 // ===== Scroll Reveal Animation =====
 const sections = document.querySelectorAll('section');
+if (window.innerWidth < 768) {
+    sections.forEach(section => {
+        section.classList.add('visible');
+    });
+}
 const navLinks = document.querySelectorAll('.nav-link');
 
 const observerOptions = {
     threshold: 0.2,
-    rootMargin: '0px 0px -100px 0px'
+    rootMargin: '0px 0px -50px 0px'
 };
 
 const observer = new IntersectionObserver((entries) => {

@@ -197,3 +197,9 @@ window.addEventListener('load', () => {
 console.log('%c👋 Hello Developer!', 'color: #2D9CDB; font-size: 20px; font-weight: bold;');
 console.log('%cLooking at my code? Feel free to reach out!', 'color: #9BE7FF; font-size: 14px;');
 console.log('%c📧 phihasky@gmail.com', 'color: #FFFFFF; font-size: 12px;');
+
+window.addEventListener('load', () => {
+    document.querySelectorAll('section').forEach(sec => {
+        sec.classList.add('visible');
+    });
+});
